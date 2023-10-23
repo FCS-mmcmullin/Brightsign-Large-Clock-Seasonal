@@ -1,0 +1,92 @@
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url('fonts/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('fonts/OpenSans-Regular.ttf');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'OpenSans-Regular', Arial, Helvetica, sans-serif;
+    
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+#specialBackground
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#specialVideo
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+#title
+{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 1920px;
+    font-size: 140px;
+    text-align: center;
+    line-height: 140px;
+}
+
+#datetimeholder
+{
+    display: table;
+    position: absolute;
+    width: 1300px;
+    height: 700px;
+    top: 0px;
+    left:0px;
+}
+
+#datetimeholdercell
+{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle
+}
+
+#time
+{
+    font-size: 225px;
+    font-family: 'OpenSans-Bold';
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+}
+#date
+{
+    font-size: 75px;
+    text-align: center;
+}
+
+#logo
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
