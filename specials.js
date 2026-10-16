@@ -2,8 +2,8 @@ var specials =
 [
     {
         "title": "Halloween",
-        "start":"10/29/2025",
-        "end":"10/31/2025",
+        "start":"10/26/2026",
+        "end":"10/31/2026",
         "background": "",
         "video": "halloween.mp4"
     },
